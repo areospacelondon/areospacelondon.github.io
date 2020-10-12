@@ -6,7 +6,7 @@
     --silver: #f6fafa;
     --green: #392ec8;
     --darkgreen: #0008a1;
-    --bluegreenToTop: linear-gradient(25deg,#023cc0,#46a8cc);
+    --bluegreenToTop: linear-gradient(25deg,#023cc0,#4656cc);
     --bluegreenToRight: linear-gradient(260deg,#466fcc 0%,#0245c0);
     --8: 8px;
     --16: 16px;
@@ -25,7 +25,7 @@ margin:0 auto;overflow-x:hidden;overflow-y:visible}*{box-sizing:border-box}
 li{list-style-type:none;padding:0}.container{max-width:1320px;padding:0 20px;width:100%;margin:0 auto}
 .container-blog,.wp-block-group{max-width:780px;padding:0 20px;width:100%;margin:0 auto}
 .wp-block-group p{font-size:18px;line-height:28px}
-.wp-block-group p a{color:#07c1bd}a,button,input,textarea{font-family:'Montserrat',sans-serif}
+.wp-block-group p a{color:#4656cc}a,button,input,textarea{font-family:'Montserrat',sans-serif}
 a{text-decoration:none}img{display:block;max-width:100%}button{outline:0!important}
 .backgroundWhite{background:white!important}.backgroundSilver{background:var(--silver)!important}
 .bluegreengradientBG{background:var(--bluegreenToTop)!important}.fs20{font-size:20px;line-height:32px}
@@ -41,7 +41,7 @@ font-weight:600}.cl-button.arrowRight.bigger{position:relative;padding-right:90p
 display:inline-block;padding-right:3px;vertical-align:middle;font-weight:900;position:absolute;
 right:20px;top:50%;transform:translateY(-50%);font-size:16px}
 .cl-button.bluegreen{background:var(--bluegreenToRight)!important}
-.cl-button.bluegreen:hover{box-shadow:0 0 15px #46cca1;color:white!important}
+.cl-button.bluegreen:hover{box-shadow:0 0 15px #4656cc;color:white!important}
 .cl-button.white{background:#fff;color:var(--green)}
 .cl-button.white:hover{box-shadow:0 0 15px #fff;color:var(--green)}
 .cl-button.whiteblue{background:#fff;color:var(--blue);display:inline-block}
