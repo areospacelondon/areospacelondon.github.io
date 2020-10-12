@@ -1,10 +1,19 @@
 .wp-block{max-width:1100px!important}
 .edit-post-sidebar{width:400px!important}
-:root{--blue:#314a7e;--darkblue:#1e3057;
---silver:#f6fafa;--green:#2ec8ab;--darkgreen:#00a16a;
---bluegreenToTop:linear-gradient(25deg,#02c0bf,#46cca1);
---bluegreenToRight:linear-gradient(260deg,#46cca1 0%,#02c0bf);
---8:8px;--16:16px;--24:24px;--32:32px;--48:48px}img[data-lazy]
+:root{
+    --blue: #314a7e;
+    --darkblue: #1e3057;
+    --silver: #f6fafa;
+    --green: #392ec8;
+    --darkgreen: #0008a1;
+    --bluegreenToTop: linear-gradient(25deg,#023cc0,#46a8cc);
+    --bluegreenToRight: linear-gradient(260deg,#466fcc 0%,#0245c0);
+    --8: 8px;
+    --16: 16px;
+    --24: 24px;
+    --32: 32px;
+    --48: 48px;
+}img[data-lazy]
 {opacity:0;transition-delay:.2s;transition:.8s}img[data-lazy].fade{opacity:1}
 .mb32{margin-bottom:32px}#loader{position:fixed;background:#fcfcfc;
 height:100%;width:100%;left:0;top:0;z-index:9999999999999;transition:1.3s;display:none}
