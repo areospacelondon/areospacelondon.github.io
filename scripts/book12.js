@@ -1,7 +1,7 @@
 $("img[data-lazy]").each(function(){$(this).attr("src",$(this).attr("data-lazy"));$(this).addClass("fade");});if($("#homepagejumbo").length>0){var video=`
     <div class="wrapper" style="position: absolute;top: 0;left: 0; width: 100%; height: 100%;">
       <video style=" width: 100%;object-fit: cover; height: 100%;" preload autoplay loop muted playsinline poster="poster.jpg" id="bgvid">
-        <source src="/wp-content/themes/clim8/assets/Hero_Video_-_Desktop.mp4" type="video/mp4">
+        <source src="/video/background2.mp4" type="video/mp4">
       </video>
     </div>
     `;$("#homepagejumbo").append(video);}
