@@ -68,18 +68,18 @@ background:rgba(14,21,35,.88)}.jumbo-content h1{margin-bottom:var(--8)}
 .jumbo-content p{margin-bottom:60px}.jumbo-content a.cl-button{padding:12px 80px}
 .curveBottomSilver{position:relative}.curveBottomSilver:after{position:absolute;content:'';
 bottom:0;width:100%;left:0;z-index:100;display:block;content:"";width:100%;height:95px;
-background:transparent url(//clim8invest.com/wp-content/themes/clim8/assets/css/../images/jumboBottomCurveSilver.png) no-repeat;
+background:transparent url(/images/jumboBottomCurveSilver.png) no-repeat;
 background-position:bottom;background-size:contain}.curveBottomWhite{position:relative}
 .curveBottomWhite:after{position:absolute;content:'';bottom:0;width:100%;left:0;
 z-index:100;display:block;content:"";width:100%;height:95px;
-background:transparent url(//clim8invest.com/wp-content/themes/clim8/assets/css/../images/jumboBottomCurve.png) no-repeat;
+background:transparent url(/images/jumboBottomCurve.png) no-repeat;
 background-position:center;background-position:bottom;background-size:contain}
 .curveTopWhite{position:relative}.curveTopWhite:before{position:absolute;content:'';
 top:-1px;width:100%;left:0;z-index:100;display:block;content:"";width:100%;height:95px;
-background:transparent url(//clim8invest.com/wp-content/themes/clim8/assets/css/../images/jumboBottomCurve.png) no-repeat;
+background:transparent url(/images/jumboBottomCurve.png) no-repeat;
 transform:rotate(180deg);background-position:center;background-position:bottom;background-size:contain}.curveTopSilver{position:relative}
 .curveTopSilver:before{position:absolute;content:'';top:-1px;width:100%;left:0;z-index:100;display:block;content:"";width:100%;height:95px;
-background:transparent url(//clim8invest.com/wp-content/themes/clim8/assets/css/../images/jumboBottomCurveSilver.png) no-repeat;transform:rotate(180deg);
+background:transparent url(/images/jumboBottomCurveSilver.png) no-repeat;transform:rotate(180deg);
 background-position:center;background-position:bottom;background-size:contain}.textOnlyHeading{background:transparent!important}.textOnlyHeading 
 .jumbo-content{padding:0!important;color:#314a7e!important}.features{padding:100px 0 130px;background:#f6fafa}.features .features-grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:30px}
 .features .feature{text-align:center}.features .feature .imgFeature{width:75px;height:75px;display:flex;align-items:center;justify-content:center;
