@@ -18,6 +18,19 @@
   
     
       <url>
+        <loc>http://localhost:4000/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/index3</loc>
         
           
@@ -32,19 +45,6 @@
     
       <url>
         <loc>http://localhost:4000/index3a</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>http://localhost:4000/index6</loc>
         
           
           
