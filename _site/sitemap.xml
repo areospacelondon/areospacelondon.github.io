@@ -15,6 +15,19 @@
     
   
     
+      <url>
+        <loc>http://localhost:4000/about-us</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
   
     
       <url>
@@ -57,5 +70,16 @@
   
     
   
+    
+  
+  
+    <url>
+      <loc>http://localhost:4000/welcome-to-jekyll.html</loc>
+      
+        <lastmod>2014-11-01T20:07:22+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
   
 </urlset>
