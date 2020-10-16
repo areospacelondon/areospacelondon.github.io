@@ -1,0 +1,13 @@
+---
+layout: blog5
+title:  "My Example Blog Post"
+section-type: index3a
+date:   2015-11-01 20:07:22
+categories: jekyll update
+sitemap:
+  priority: 1.0
+---
+
+<!--
+If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
+-->
