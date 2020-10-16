@@ -2,6 +2,7 @@
 layout: post
 tags: ["dude", "jekyll"]
 title:  "Welcome to Jekyll!"
+type: blog
 date:   2014-11-01 20:07:22
 categories: ["programming", "jekyll"]
 ---
