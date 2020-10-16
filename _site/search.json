@@ -3,14 +3,14 @@
     {
       "title"    : "My Example Blog Post",
       "category" : "jekyllupdate",
-      "tags"     : "",
+      "tags"     : "dude",
       "url"      : "/werl.html",
       "date"     : "2015-11-01 20:07:22 +0000"
     } ,
   
     {
       "title"    : "Welcome to Jekyll!",
-      "category" : "TechPersonal",
+      "category" : "programmingjekyll",
       "tags"     : "",
       "url"      : "/welcome-to-jekyll.html",
       "date"     : "2014-11-01 20:07:22 +0000"
