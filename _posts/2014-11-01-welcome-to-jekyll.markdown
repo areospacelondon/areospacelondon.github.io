@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: frist
+tags: ["dude", "jekyll"]
 title:  "Welcome to Jekyll!"
 date:   2014-11-01 20:07:22
 categories: ["programming", "jekyll"]
