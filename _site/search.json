@@ -2,7 +2,7 @@
   
     {
       "title"    : "My Example Blog Post",
-      "category" : "",
+      "category" : "jekyllupdate",
       "tags"     : "",
       "url"      : "/werl.html",
       "date"     : "2015-11-01 20:07:22 +0000"
@@ -10,7 +10,7 @@
   
     {
       "title"    : "Welcome to Jekyll!",
-      "category" : "",
+      "category" : "TechPersonal",
       "tags"     : "",
       "url"      : "/welcome-to-jekyll.html",
       "date"     : "2014-11-01 20:07:22 +0000"
