@@ -1,16 +1,27 @@
 [
-{
+  
+    {
+      "title"    : "My Example Blog Post",
+      "category" : "jekyllupdate",
+      "tags"     : "dude",
+      "url"      : "/about-us.html",
+      "date"     : "2015-11-01 20:07:22 +0000"
+    } ,
+  
+    {
       "title"    : "Welcome to Jekyll!",
       "category" : "programmingjekyll",
       "tags"     : "dude, jekyll",
       "url"      : "/wedfslcome-to-jekyll.html",
       "date"     : "2014-11-01 20:07:22 +0000"
-},
-{
+    } ,
+  
+    {
       "title"    : "Welcome to Jekyll!",
       "category" : "programmingjekyll",
       "tags"     : "dude, jekyll",
       "url"      : "/welcome-to-jekyll.html",
       "date"     : "2014-11-01 20:07:22 +0000"
-}
+    } 
+  
 ]
