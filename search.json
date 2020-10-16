@@ -6,7 +6,7 @@ layout: none
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.categories }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "url"      : "https://aquilax.aquastellar.io{{ post.url }}",
       "date"     : "{{ post.date }}"
 }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]
