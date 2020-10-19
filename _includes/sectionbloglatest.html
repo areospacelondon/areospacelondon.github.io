@@ -3,7 +3,7 @@
         <h2 class="f20 bold"> LATEST IN OUR BLOG</h2>
         <div class="latest-blogs-grid owl-carousel owl-theme latestblogsCarosuel"> 
             {% for post in site.posts %}{% if post.type == 'blog' %}
-{
+
             <a href="https://clim8invest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/" class="blog-item">
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.categories }}",
@@ -11,7 +11,7 @@
       "url"      : "https://aquilax.aquastellar.io{{ post.url }}",
       "date"     : "{{ post.date }}"
             </a>
-}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
             
             
             <a href="https://clim8invest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/" class="blog-item"> 
