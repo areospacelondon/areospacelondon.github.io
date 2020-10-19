@@ -3,7 +3,7 @@
  styleLaptop=" padding-top:70px; padding-bottom:60px; "
  style767="padding-top:50px; padding-bottom:50px; "
 ><h2 class="fs20 bold" style="text-align: center; margin-bottom: 60px; "> As seen on</h2><div class="slider"><div class="slide-track">
-<div class="slide">
+ <!--&w=300&h=300&output=jpg&q=50&t=square-->
 {% for file in site.static_files %}
   {% if file.path contains include.folder %}
     {% if file.extname == '.jpg' or 
@@ -15,14 +15,14 @@
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
     
-    <!--&w=300&h=300&output=jpg&q=50&t=square-->
-
+   
+<div class="slide">
    
         <img data-lazy="{{ file.path }}" height="100"  />
-       
+       </div>
      
     {% endif %}
   {% endif %}
 {% endfor %}
-</div>
+
 <div class="slide"> <img data-lazy="images/edie_3x_bbc03683ce5edb1c30857b7e54a231b8.png" height="100" /></div><div class="slide"> <img data-lazy="images/finextra@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/good-with-money@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/sunday-express@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/Sifted_b4bdbe50827919c5c4c051fba841f219.png" height="100" /></div><div class="slide"> <img data-lazy="https://clim8invest.com/wp-content/uploads/2020/08/Fintech-Insider.png" height="100" /></div><div class="slide"> <img data-lazy="images/euronews_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/euronews_living_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/future_netzero_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/pensions_age.png" height="100" /></div><div class="slide"> <img data-lazy="images/yahoo_finance_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/edie_3x_bbc03683ce5edb1c30857b7e54a231b8.png" height="100" /></div><div class="slide"> <img data-lazy="images/finextra@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/good-with-money@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/sunday-express@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/Sifted_b4bdbe50827919c5c4c051fba841f219.png" height="100" /></div><div class="slide"> <img data-lazy="https://clim8invest.com/wp-content/uploads/2020/08/Fintech-Insider.png" height="100" /></div><div class="slide"> <img data-lazy="images/euronews_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/euronews_living_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/future_netzero_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/pensions_age.png" height="100" /></div><div class="slide"> <img data-lazy="images/yahoo_finance_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/edie_3x_bbc03683ce5edb1c30857b7e54a231b8.png" height="100" /></div><div class="slide"> <img data-lazy="images/finextra@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/good-with-money@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/sunday-express@3x.png" height="100" /></div><div class="slide"> <img data-lazy="images/Sifted_b4bdbe50827919c5c4c051fba841f219.png" height="100" /></div><div class="slide"> <img data-lazy="https://clim8invest.com/wp-content/uploads/2020/08/Fintech-Insider.png" height="100" /></div><div class="slide"> <img data-lazy="images/euronews_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/euronews_living_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/future_netzero_invest.png" height="100" /></div><div class="slide"> <img data-lazy="images/pensions_age.png" height="100" /></div><div class="slide"> <img data-lazy="images/yahoo_finance_invest.png" height="100" /></div></div></div></section>
