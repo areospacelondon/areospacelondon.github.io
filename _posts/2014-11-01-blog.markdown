@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: blog1
 tags: ["dude", "jekyll"]
 title:  "Welcome to Jekyll!"
-type: blog
+type: blog1
 date:   2014-11-01-20-07-22
 categories: ["programming"]
 ---
