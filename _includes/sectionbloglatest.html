@@ -4,12 +4,11 @@
         <div class="latest-blogs-grid owl-carousel owl-theme latestblogsCarosuel"> 
             {% for post in site.posts %}{% if post.type == 'blog' %}
 
-            <a href="https://clim8invest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/" class="blog-item">
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.categories }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "https://aquilax.aquastellar.io{{ post.url }}",
-      "date"     : "{{ post.date }}"
+            <a href="https://aquilax.aquastellar.io{{ post.url }}" class="blog-item">
+                <img data-lazy="https://clim8invest.com/wp-content/uploads/2020/09/pexels-pixabay-532192-1.jpg">
+                <h2 class="name" href="https://clim8invest.com/why-sustainable-stocks-are-likely-to-outperform-in-the-next-decade-and-beyond/">{{ post.title | escape }}</h2> 
+    <span class="underlineURL"> Read more </span>
+      
             </a>
 {% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
             
