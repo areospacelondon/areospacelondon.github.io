@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: posts
 tags: ["dude", "jekyll"]
 title:  "Welcome to Jekyll!"
 type: blog
+author: AquillaX Team
 date:   2014-11-01 20:07:22
 categories: ["programming", "jekyll"]
 ---
