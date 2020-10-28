@@ -5,6 +5,7 @@ title:  "Welcome to Jekyll!"
 type: blog
 author: AquillaX Team
 date:   2014-11-01 20:07:22
+pageimage: /images/how-to-start-investing-1-1.jpg
 categories: ["programming", "jekyll"]
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
