@@ -28,7 +28,7 @@ force-https: True
 # HTML Head #
 #############
 
-logo: "/images/logo5.svg"
+logo: "/images/logo.svg"
 lang: "en"
 author: "Justin Grierson"
 title: "{ Justin Grierson }"
