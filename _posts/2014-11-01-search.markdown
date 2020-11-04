@@ -8,7 +8,7 @@ tags: dude
 categories: jekyll update
 sitemap:
   priority: 1.0
-backgroundimage: /images/aquilax-Team-1-1.jpg
+backgroundimage: /images/aboutus1.png
 ---
 
 <!--
