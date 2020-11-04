@@ -1,5 +1,19 @@
 [
 {
+      "title"    : "Video Tutorial 2",
+      "category" : "tutorialjekyll",
+      "tags"     : "video, tutorial",
+      "url"      : "https://aquilax.aquastellar.io/video-tutorial-2.html",
+      "date"     : "2020-11-03 20:07:22 +0000"
+},
+{
+      "title"    : "Video Tutorial",
+      "category" : "tutorialjekyll",
+      "tags"     : "video, tutorial",
+      "url"      : "https://aquilax.aquastellar.io/video-tutorial.html",
+      "date"     : "2020-11-02 20:07:22 +0000"
+},
+{
       "title"    : "Welcome to Jekyll!",
       "category" : "programmingjekyll",
       "tags"     : "dude, jekyll",

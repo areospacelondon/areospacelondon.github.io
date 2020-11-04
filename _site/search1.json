@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Video Tutorial 2",
+      "category" : "tutorialjekyll",
+      "tags"     : "video, tutorial",
+      "url"      : "/video-tutorial-2.html",
+      "date"     : "2020-11-03 20:07:22 +0000"
+    } ,
+  
+    {
+      "title"    : "Video Tutorial",
+      "category" : "tutorialjekyll",
+      "tags"     : "video, tutorial",
+      "url"      : "/video-tutorial.html",
+      "date"     : "2020-11-02 20:07:22 +0000"
+    } ,
+  
+    {
       "title"    : "My Example Blog Post",
       "category" : "jekyllupdate",
       "tags"     : "dude",
