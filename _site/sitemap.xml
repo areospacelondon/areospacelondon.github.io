@@ -81,6 +81,24 @@
     </url>
   
     <url>
+      <loc>http://localhost:4000/funding3.html</loc>
+      
+        <lastmod>2015-11-01T20:07:22+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/funding2.html</loc>
+      
+        <lastmod>2015-11-01T20:07:22+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/funding.html</loc>
       
         <lastmod>2015-11-01T20:07:22+00:00</lastmod>
