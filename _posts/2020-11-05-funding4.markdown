@@ -1,5 +1,5 @@
 ---
-layout: funding1
+layout: blog7
 title:  "My Example Blog Post"
 section-type: index3a
 date:   2015-11-01 20:07:22
@@ -8,7 +8,7 @@ tags: dude
 categories: jekyll update
 sitemap:
   priority: 1.0
-backgroundimage: /images/aboutus1.png
+backgroundimage: /images/giftadrone.png
 ---
 
 <!--
