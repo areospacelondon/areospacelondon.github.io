@@ -20,6 +20,14 @@
       "title"    : "My Example Blog Post",
       "category" : "jekyllupdate",
       "tags"     : "dude",
+      "url"      : "/thank-you.html",
+      "date"     : "2015-11-01 20:07:22 +0000"
+    } ,
+  
+    {
+      "title"    : "My Example Blog Post",
+      "category" : "jekyllupdate",
+      "tags"     : "dude",
       "url"      : "/funding4.html",
       "date"     : "2015-11-01 20:07:22 +0000"
     } ,
