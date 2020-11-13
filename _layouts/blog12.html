@@ -11,7 +11,7 @@ $(document).ready(function(){
  
         var formValues= $(this).serialize();
  
-        $.post("process_form.php", formValues, function(data){
+        $.post("https://apiaquilax.herokuapp.com/process1.php", formValues, function(data){
             // Display the returned data in browser
             $("#result").html(data);
         });
