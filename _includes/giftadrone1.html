@@ -1,5 +1,11 @@
 <script>
 $(document).ready(function(){
+    
+    var contentType ="application/x-www-form-urlencoded; charset=utf-8";
+ 
+    if(window.XDomainRequest)
+        contentType = "text/plain";
+ 
     $("form").on("submit", function(event){
         event.preventDefault();
  
@@ -12,6 +18,55 @@ $(document).ready(function(){
     });
 });
 </script>
+
+
+
+<script>
+    
+
+$(document).ready(function()
+{
+
+    var contentType ="application/x-www-form-urlencoded; charset=utf-8";
+ 
+    if(window.XDomainRequest)
+        contentType = "text/plain";
+ 
+    $("formxc").submit(function()
+    {
+     
+     $('#response').html("<b>Thanks For Your Message I will get back To You Soon...</b>");
+        $.ajax({
+         url:"https://west123z.herokuapp.com/mail5.php",
+         data: $(this).serialize(),
+         type:"POST",  
+         contentType:contentType
+        })
+ .done(function(data){
+
+// show the response
+$('#response').html(data);
+
+})
+.fail(function() {
+
+// just in case posting your form failed
+//alert( "Posting failed." );
+//document.getElementById("form-contact-submit").disabled = true;
+});
+
+// to prevent refreshing the whole page page
+return false;
+    });
+ 
+   
+  });
+    
+                            </script>
+                            
+
+
+
 <article id="post-331" class="post-331 page type-page status-publish has-post-thumbnail hentry">
     <div class="entry-content">
     
