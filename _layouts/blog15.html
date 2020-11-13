@@ -12,8 +12,6 @@
     <input id="email" name="email" type="text"><br>
     Subject:<br>
     <input id="subject" name="subject" type="text"><br>
-    Subject:<br>
-    <input id="subject" name="subject" type="text">
     Message:<br>
     <textarea cols="50" rows="5" id="message" name="message" >
     
@@ -33,7 +31,7 @@
                $.ajax({
                   type: form.attr("method"),
                    url: form.attr('action'),
-                   date: form.serialize(),
+                   data: form.serialize(),
                    dataType:"json",
                    success: function(data) {
                        
