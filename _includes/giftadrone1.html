@@ -1,68 +1,4 @@
-<script>
-$(document).ready(function(){
-    
-    var contentType ="application/x-www-form-urlencoded; charset=utf-8";
- 
-    if(window.XDomainRequest)
-        contentType = "text/plain";
- 
-    $("form").on("submit", function(event){
-        event.preventDefault();
- 
-        var formValues= $(this).serialize();
- 
-        $.post("https://apiaquilax.herokuapp.com/process1.php", formValues, function(data){
-            // Display the returned data in browser
-            $("#result").html(data);
-        });
-    });
-});
-</script>
 
-
-
-<script>
-    
-
-$(document).ready(function()
-{
-
-    var contentType ="application/x-www-form-urlencoded; charset=utf-8";
- 
-    if(window.XDomainRequest)
-        contentType = "text/plain";
- 
-    $("formxc").submit(function()
-    {
-     
-     $('#response').html("<b>Thanks For Your Message I will get back To You Soon...</b>");
-        $.ajax({
-         url:"https://west123z.herokuapp.com/mail5.php",
-         data: $(this).serialize(),
-         type:"POST",  
-         contentType:contentType
-        })
- .done(function(data){
-
-// show the response
-$('#response').html(data);
-
-})
-.fail(function() {
-
-// just in case posting your form failed
-//alert( "Posting failed." );
-//document.getElementById("form-contact-submit").disabled = true;
-});
-
-// to prevent refreshing the whole page page
-return false;
-    });
- 
-   
-  });
-    
-                            </script>
                             
 
 
@@ -275,6 +211,85 @@ return false;
   <div id="result"></div>
     
     
+             <form id='userForm' class="clearfix ts-form ts-form-email">
+<!--Row-->
+<div class="row">
+<!--Name-->
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label for="form-contact-name">Name *</label>
+<input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+</div>
+</div>
+<!--Email-->
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label for="form-contact-email">Email *</label>
+<input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+</div>
+</div>
+</div>
+<!--end row -->
+ <!--Subject-->
+<div class="form-group">
+<label for="form-contact-subject">Subject*</label>
+<input type="text" class="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required>
+</div>
+<div class="form-group">
+<label for="form-contact-message">Message *</label>
+<textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Your Message" required></textarea>
+</div><div class="form-group">
+<div class="g-recaptcha float-left" data-sitekey="6LdXxtAZAAAAAMFSVn1d0tfLEBYByo6sa2bPXjoo"></div>
+<input type='submit' name='submit' value='submit' class='btn btn-primary float-right' id='form-contact-submit' /></div>
+<div id='response'></div>
+</form>
+
+
+ 
+ 
+<script>
+    
+
+$(document).ready(function()
+{
+
+    var contentType ="application/x-www-form-urlencoded; charset=utf-8";
+ 
+    if(window.XDomainRequest)
+        contentType = "text/plain";
+ 
+    $("#userForm").submit(function()
+    {
+     
+     $('#response').html("<b>Thanks For Your Message I will get back To You Soon...</b>");
+        $.ajax({
+         url:"https://west123z.herokuapp.com/mail5.php",
+         data: $(this).serialize(),
+         type:"POST",  
+         contentType:contentType
+        })
+ .done(function(data){
+
+// show the response
+$('#response').html(data);
+
+})
+.fail(function() {
+
+// just in case posting your form failed
+//alert( "Posting failed." );
+//document.getElementById("form-contact-submit").disabled = true;
+});
+
+// to prevent refreshing the whole page page
+return false;
+    });
+ 
+   
+  });
+    
+                            </script>
+        
    
   
     {% include sectionslider.html folder="images/slider" %}
