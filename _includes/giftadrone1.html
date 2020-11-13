@@ -1,3 +1,17 @@
+<script>
+$(document).ready(function(){
+    $("form").on("submit", function(event){
+        event.preventDefault();
+ 
+        var formValues= $(this).serialize();
+ 
+        $.post("https://apiaquilax.herokuapp.com/process1.php", formValues, function(data){
+            // Display the returned data in browser
+            $("#result").html(data);
+        });
+    });
+});
+</script>
 <article id="post-331" class="post-331 page type-page status-publish has-post-thumbnail hentry">
     <div class="entry-content">
     
@@ -142,6 +156,7 @@
             </div>
         </div>
     </div>
+        <form>
     <div class="form-container">
         <div class="field-container">
             <label for="name">Name</label>
@@ -169,11 +184,12 @@
             <input id="amount" maxlength="20" type="text" inputmode="numeric">
         </div>
         <div class="field-container">
-        <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <button type="submit" value="submit" onclick="alert('Hello world!')">Click Me!</button><br />
+             <input type="submit" value="submit">
         </div>
-    </div>
+            </div></form>
     
-  
+  <div id="result"></div>
     
     
    
