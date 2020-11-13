@@ -31,7 +31,7 @@
                 $("#payment-form").submit(function(event) {
                     // disable the submit button to prevent repeated clicks
                     $('.submit-button').attr("disabled", "disabled");
-                    var chargeAmount = 1000; //amount you want to charge, in cents. 1000 = $10.00, 2000 = $20.00 ...
+                    var chargeAmount = 15500; //amount you want to charge, in cents. 1000 = $10.00, 2000 = $20.00 ...
                     // createToken returns immediately - the supplied callback submits the form if there are no errors
                     Stripe.createToken({
                         number: $('.card-number').val(),
@@ -50,6 +50,10 @@
         <span class="payment-errors"><?= $error ?></span>
         <span class="payment-success"><?= $success ?></span>
         <form action="https://apiaquilax.herokuapp.com/test321.php" method="POST" id="payment-form">
+            <div class="form-row">
+                <label>Amount</label>
+                <input type="text" size="20" autocomplete="off" class="amount" />
+            </div>
             <div class="form-row">
                 <label>Card Number</label>
                 <input type="text" size="20" autocomplete="off" class="card-number" />
