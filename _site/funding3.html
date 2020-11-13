@@ -428,7 +428,7 @@ input {
 }
 
 .creditcard {
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -638,7 +638,12 @@ input {
 <div id="loader"></div>
 <div id="primary" class="content-area">
 <main id="main" class="site-main">
-    <article id="post-331" class="post-331 page type-page status-publish has-post-thumbnail hentry">
+    
+                            
+
+
+
+<article id="post-331" class="post-331 page type-page status-publish has-post-thumbnail hentry">
     <div class="entry-content">
     
     <section 
@@ -782,6 +787,7 @@ input {
             </div>
         </div>
     </div>
+        
     <div class="form-container">
         <div class="field-container">
             <label for="name">Name</label>
@@ -809,13 +815,121 @@ input {
             <input id="amount" maxlength="20" type="text" inputmode="numeric">
         </div>
         <div class="field-container">
-        <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <button type="submit" value="submit" onclick="alert('Hello world!')">Click Me!</button>
         </div>
-    </div>
+            </div>
+    <form>
+        <p>
+            <label>Name:</label>
+            <input type="text" name="name">
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label><input type="radio" value="male" name="gender"> Male</label>
+            <label><input type="radio" value="female" name="gender"> Female</label>
+        </p>
+        <p>
+            <label>Hobbies:</label>
+            <label><input type="checkbox" value="music" name="hobbies[]"> Music</label>
+            <label><input type="checkbox" value="sports" name="hobbies[]"> Sports</label>
+            <label><input type="checkbox" value="dance" name="hobbies[]"> Dance</label>
+        </p>
+        <p>
+            <label>Favorite Color:</label>
+            <select name="color">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+            </select>
+        </p>
+        <p>
+            <label>Comment:</label>
+            <textarea name="comment"></textarea>
+        </p>
+        <input type="submit" value="submit">
+    </form>
+  <div id="result"></div>
     
-  
     
+             <form id='userForm' class="clearfix ts-form ts-form-email">
+<!--Row-->
+<div class="row">
+<!--Name-->
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label for="form-contact-name">Name *</label>
+<input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+</div>
+</div>
+<!--Email-->
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label for="form-contact-email">Email *</label>
+<input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+</div>
+</div>
+</div>
+<!--end row -->
+ <!--Subject-->
+<div class="form-group">
+<label for="form-contact-subject">Subject*</label>
+<input type="text" class="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required>
+</div>
+<div class="form-group">
+<label for="form-contact-message">Message *</label>
+<textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Your Message" required></textarea>
+</div><div class="form-group">
+<div class="g-recaptcha float-left" data-sitekey="6LdXxtAZAAAAAMFSVn1d0tfLEBYByo6sa2bPXjoo"></div>
+<input type='submit' name='submit' value='submit' class='btn btn-primary float-right' id='form-contact-submit' /></div>
+<div id='response'></div>
+</form>
+
+
+ 
+ 
+<script>
     
+
+$(document).ready(function()
+{
+
+    var contentType ="application/x-www-form-urlencoded; charset=utf-8";
+ 
+    if(window.XDomainRequest)
+        contentType = "text/plain";
+ 
+    $("#userForm").submit(function()
+    {
+     
+     $('#response').html("<b>Thanks For Your Message I will get back To You Soon...</b>");
+        $.ajax({
+         url:"https://west123z.herokuapp.com/mail5.php",
+         data: $(this).serialize(),
+         type:"POST",  
+         contentType:contentType
+        })
+ .done(function(data){
+
+// show the response
+$('#response').html(data);
+
+})
+.fail(function() {
+
+// just in case posting your form failed
+//alert( "Posting failed." );
+//document.getElementById("form-contact-submit").disabled = true;
+});
+
+// to prevent refreshing the whole page page
+return false;
+    });
+ 
+   
+  });
+    
+                            </script>
+        
    
   
     <section class="sliderlogos 
@@ -1154,6 +1268,8 @@ input {
   
 
   
+
+  
     
 
       
@@ -1749,6 +1865,8 @@ input {
   
 
   
+
+  
     
 
       
@@ -1911,6 +2029,8 @@ input {
        </div>
      
     
+  
+
   
 
   

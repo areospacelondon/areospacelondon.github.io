@@ -1,5 +1,12 @@
 [
 {
+      "title"    : "Meeting 1",
+      "category" : "programmingjekyll",
+      "tags"     : "dude, jekyll",
+      "url"      : "https://aquilax.aquastellar.io/wedfslcome-to-jekyll.html",
+      "date"     : "2020-11-11 20:07:22 +0000"
+},
+{
       "title"    : "Video Tutorial 2",
       "category" : "tutorialjekyll",
       "tags"     : "video, tutorial",
