@@ -1,5 +1,5 @@
 ---
-layout: blog10
+layout: blog11
 title:  "My Example Blog Post"
 section-type: index3a
 date:   2015-11-01 20:07:22
