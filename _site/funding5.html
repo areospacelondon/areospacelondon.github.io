@@ -19,7 +19,33 @@
     
     </textarea>
     <input id="btn_send" type="submit" value="Send Message">
+        <span class="response">
+        
+        </span>
         </form>
         <script src="/scripts/jquery-3.4.1.min.js"></script>
+        <script>
+        $(function(){
+           var form = $("#creditcardform");form.submit(function (e){
+               $(this).attr("disabled","disabled");
+               e.preventDefault();
+               
+               $.ajax({
+                  type: form.attr("method"),
+                   url: form.attr('action'),
+                   date: form.serialize(),
+                   dataType:"json",
+                   success: function(data) {
+                       
+                       $(".response").text(data.content);
+                   },
+                   
+                   error: function (data) {
+                       $(".response").text("shit happens");
+                   }
+               });
+           }); 
+        });
+        </script>
     </body>
 </html>
